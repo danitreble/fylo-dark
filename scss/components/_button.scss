@@ -1,0 +1,15 @@
+.btn {
+  display: block;
+  width: 250px;
+  height: 50px;
+  margin: 30px auto;
+
+  background-color: $secondary-one;
+  color: $neutral-one;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: map-get($font-weight, bold);
+
+  border: none;
+  border-radius: 30px;
+}

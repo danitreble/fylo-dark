@@ -1,0 +1,27 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-links {
+  margin: 0 15px;
+
+  font-family: 'Raleway', sans-serif;
+
+  &__container {
+    display: flex;
+    margin: 5px 15px 0 0;
+    
+    list-style: none;
+  }
+}
+
+.nav-logo {
+  display: block;
+  width: 85px;
+
+  &__container {
+    margin-left: 20px;
+  }
+}

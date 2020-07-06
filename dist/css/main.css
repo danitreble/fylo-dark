@@ -11,5 +11,77 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #181f2a;
+}
+
+.illustration {
+  display: block;
+  width: 80%;
+  margin: 60px auto 40px;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-links {
+  margin: 0 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-links__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px 15px 0 0;
+  list-style: none;
+}
+
+.nav-logo {
+  display: block;
+  width: 85px;
+}
+
+.nav-logo__container {
+  margin-left: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.9rem;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  width: 250px;
+  height: 50px;
+  margin: 30px auto;
+  background-color: #65e2d9;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
 }
 /*# sourceMappingURL=main.css.map */
