@@ -21,7 +21,29 @@ body {
 .illustration {
   display: block;
   width: 80%;
-  margin: 60px auto 40px;
+  margin: 60px auto 0;
+}
+
+.illustration__container--main {
+  margin-top: 120px;
+}
+
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #65e2d9;
+  margin-left: 20px;
+  border-bottom: 1px solid #65e2d9;
+  width: 150px;
+  padding-bottom: 5px;
+}
+
+.link__icon {
+  margin-left: 5px;
 }
 
 .navigation {
@@ -58,17 +80,26 @@ body {
 
 .title {
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.9rem;
+  margin: 30px auto 20px;
+  width: 90%;
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
 }
 
+.title--left {
+  text-align: left;
+  margin-top: 60px;
+}
+
 .subtitle {
   text-align: center;
-  margin-bottom: 20px;
   width: 80%;
   margin: 0 auto;
+}
+
+.subtitle--left {
+  text-align: left;
+  margin: 20px;
 }
 
 .btn {
@@ -83,5 +114,14 @@ body {
   font-weight: 700;
   border: none;
   border-radius: 30px;
+}
+
+.btn--header {
+  margin-bottom: 150px;
+}
+
+.icon {
+  display: block;
+  margin: 80px auto 60px;
 }
 /*# sourceMappingURL=main.css.map */
