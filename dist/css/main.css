@@ -47,7 +47,46 @@ body {
 }
 
 .testimonial__container {
-  margin: 200px 0;
+  margin: 200px 0 400px;
+  position: relative;
+}
+
+.testimonial--floatbox {
+  position: absolute;
+  bottom: -525px;
+  left: 10%;
+}
+
+.footer {
+  background-color: #0b1523;
+  z-index: -3;
+}
+
+.footer__logo {
+  color: white;
+  padding: 140px 0 20px 45px;
+}
+
+.footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer-info__icon {
+  margin: 0 25px 0 10px;
+  margin-top: 5px;
+}
+
+.footer-info__text {
+  width: 80%;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .navigation {
@@ -71,15 +110,6 @@ body {
   display: flex;
   margin: 5px 15px 0 0;
   list-style: none;
-}
-
-.nav-logo {
-  display: block;
-  width: 85px;
-}
-
-.nav-logo__container {
-  margin-left: 20px;
 }
 
 .title {
@@ -123,6 +153,12 @@ body {
 
 .btn--header {
   margin-bottom: 150px;
+}
+
+.btn--white {
+  background-color: white;
+  color: black;
+  text-align: center;
 }
 
 .icon {
@@ -179,5 +215,79 @@ body {
 .author__title {
   font-size: 0.7rem;
   margin-top: 5px;
+}
+
+.footer-nav {
+  padding: 30px 0 40px 10px;
+}
+
+.footer-nav__item {
+  list-style: none;
+  color: white;
+  line-height: 2;
+  cursor: pointer;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 35%;
+  margin: 0 auto;
+}
+
+.social-media__icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  -webkit-transition: background-color 200ms;
+  transition: background-color 200ms;
+}
+
+.social-media__icon-container:hover {
+  background-color: white;
+}
+
+.social-media__icon-container:hover .fab {
+  color: black;
+}
+
+.fab {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.logo {
+  display: block;
+  width: 85px;
+}
+
+.logo__container {
+  margin-left: 20px;
+}
+
+.logo--footer {
+  padding: 150px 0 10px 0;
+  width: 100%;
+}
+
+.logo__container--footer {
+  width: 150px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=main.css.map */

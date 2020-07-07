@@ -17,6 +17,16 @@
   }
 }
 
-.testimonial__container {
-  margin: 200px 0;
+.testimonial {
+  &__container {
+    margin: 200px 0 400px;
+    position: relative;
+  }
+
+  &--floatbox {
+    position: absolute;
+    bottom: -525px;
+    left: 10%;
+  }
 }
+

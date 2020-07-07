@@ -1,0 +1,36 @@
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 35%;
+  margin: 0 auto;
+
+
+  &__icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+
+    margin-bottom: 50px;
+
+    transition: background-color 200ms;
+
+    &:hover {
+      background-color: white;
+    }
+
+    &:hover .fab {
+      color: black;
+    }
+  }
+}
+
+.fab {
+  color: white;
+  font-size: 0.9rem;
+}

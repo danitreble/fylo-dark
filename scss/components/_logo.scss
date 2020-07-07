@@ -1,0 +1,18 @@
+.logo {
+  display: block;
+  width: 85px;
+
+  &__container {
+    margin-left: 20px;
+  }
+
+  &--footer {
+    padding: 150px 0 10px 0;
+    width: 100%;
+  }
+
+  &__container--footer {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+}
