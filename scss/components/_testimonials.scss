@@ -1,0 +1,45 @@
+.testimonial {
+  width: 80%;
+  margin: 20px auto;
+  background-color: $primary-four;
+
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 5px rgba($primary-one, 0.4);
+  padding: 10px 5px 10px;
+  font-size: 0.9rem;
+
+  &--first {
+    position: relative;
+  }
+
+  &__icon {
+    position: absolute;
+    top: -25px;
+
+    font-size: 2rem;
+    color: $secondary-one;
+  }
+}
+
+.author {
+  display: flex;
+  margin-bottom: 10px;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+
+    margin: 2.5px 0 0 10px;
+  }
+
+  &__image {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 25px;
+  }
+
+  &__title {
+    font-size: 0.7rem;
+    margin-top: 5px;
+  }
+}
